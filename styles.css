@@ -1,0 +1,27 @@
+#cascade {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cascade > p {
+    font-weight: 900;
+}
+
+#cascade > .confirm {
+    font-weight: bold;
+    color: aliceblue;
+    background-color: green;
+}
+
+#cascade > .cancel {
+    color: black;
+    background-color: aliceblue;
+}
+
+#cascade > #parent {
+    font-weight: 100;
+}
+
+#cascade > .smaller,#child {
+    font-size: 8px;
+    font-weight: 900;
+}
